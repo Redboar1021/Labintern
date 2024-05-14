@@ -57,3 +57,4 @@ plt.plot(predictions.numpy(), label='Reconstructed')
 plt.scatter(anomalies.numpy().nonzero(), anomalies.numpy(), color='red', label='Anomalies')
 plt.legend()
 plt.show()
+#A
